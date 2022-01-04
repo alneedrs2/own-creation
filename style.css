@@ -4,13 +4,16 @@ body{
 }
 h1{
     color: black;
-    font-size: 45px;
+    font-size: 50px;
 }
 h3{
     color: deepskyblue;
+    font-size: 25px;
 }
 h5{
     color: red;
+    font-size: 18px;
+    font-weight: 400;
 }
 .fexible-contain{
     display: flex;
@@ -31,9 +34,16 @@ h5{
     border-radius: 5px;
 }
 .top-banner{
-    background-image: linear-gradient(rgb(151, 4, 236), rgb(159, 223, 32));
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
 }
 .bottom-banner{
-    background-image: linear-gradient(rgb(159,223, 32), rgb(151, 4, 236));
+    background-image: url(images/walpaperkath.jpg);
     background-repeat: no-repeat;
+    background-size: 100%;
+}
+footer p{
+    text-align: center;
 }
