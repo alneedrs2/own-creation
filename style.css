@@ -3,11 +3,11 @@ body{
     margin: 0;
 }
 h1{
-    color: green;
+    color: black;
     font-size: 45px;
 }
 h3{
-    color: rgb(95, 95, 238);
+    color: deepskyblue;
 }
 h5{
     color: red;
@@ -21,7 +21,7 @@ h5{
     padding-left: 2%;
 }
 .half-width img{
-    width: 60%;
+    width: 120%;
 }
 .link-button{
     text-decoration: none;
@@ -31,6 +31,9 @@ h5{
     border-radius: 5px;
 }
 .top-banner{
-    background-image: url(images/1200px-ডাচ-বাংলা_ব্যাংকের_লোগো.svg.png);
+    background-image: linear-gradient(rgb(151, 4, 236), rgb(159, 223, 32));
+}
+.bottom-banner{
+    background-image: linear-gradient(rgb(159,223, 32), rgb(151, 4, 236));
     background-repeat: no-repeat;
 }
